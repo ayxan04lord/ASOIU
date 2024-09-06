@@ -1,36 +1,95 @@
-.image,
-.section1 {
-    margin: 10px;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400&family=Playfair+Display:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f0f0f0;
 }
 
-article {
+.faculties__section {
+    padding: 50px 80px;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.faculty {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.faculty__img-container {
+    flex-shrink: 0;
+}
+
+.faculty__img {
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.faculty__img:hover {
+    transform: scale(1.05);
+}
+
+.faculty__desc-section {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.image img {
     max-width: 500px;
-    height: 304px;
 }
 
-.section1 {
-    width: 522px;
-    height: 195px;
+.faculty__name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-a {
+.faculty__description {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.info__section {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: inherit;
+    color: #fda085;
+    transition: color 0.3s ease;
 }
 
-a i {
-    margin-right: 5px;
+.info__section:hover {
+    color: #d35400;
 }
 
-.bi-arrow-right-circle {
-    color: black;
+.icon {
+    margin-right: 10px;
+    font-size: 30px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.info__section:hover .icon {
+    transform: translateX(5px);
+    color: #d35400;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
 }
