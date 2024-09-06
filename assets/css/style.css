@@ -1,0 +1,36 @@
+.image,
+.section1 {
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 500px;
+    height: 304px;
+}
+
+.section1 {
+    width: 522px;
+    height: 195px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+a i {
+    margin-right: 5px;
+}
+
+.bi-arrow-right-circle {
+    color: black;
+}
