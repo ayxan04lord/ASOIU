@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*,*::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section__conferences-heading{
+    margin-bottom: 30px;
+}
+
+.section__conferences-heading-title{
+    font-size: 46px;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+
+
+
+.conference__list{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.conference__item{
+    width: 100%;
+    height: auto;
+    
+}
+
+.conference__poster-img{
+    width: 100%;
+    height: 294px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+}
+
+.conference__poster{
+    margin-bottom: 24px;
+}
+
+.conference__detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 24px;
+}
+
+.conference__detail-title{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+}
