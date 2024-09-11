@@ -27,10 +27,11 @@
 }
 
 .teacher__item {
-    width: 100%;
-    height: auto;
+    width: 255px;
+    height: 361px;
     background-color: #F8F8F8;
     border-radius: 8px;
+    
 }
 
 .teacher__poster {
@@ -38,7 +39,7 @@
 }
 
 .teacher__poster-img {
-    width: 100%;
+    width: 255px;
     height: 268px;
     object-fit: cover;
     object-position: center center;
@@ -46,12 +47,12 @@
 }
 
 .teacher__description {
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    
     margin: 14px;
 }
 
@@ -72,18 +73,30 @@
     display: flex;
     justify-content: flex-end;
 }
-.seemore__button{
-    
+.seemore__section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px 123px;
-}
-.seemore__text{
-    
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 500;
 }
 
+.seemore__section-button {
+    width: 317px;
+    height: 48px;
+    background-color: #007bff; 
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.seemore__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.teacher__socials-site, .teacher__socials-mail{
+    color: black;
+    text-decoration: none;
+    margin-right: 8px;
+}

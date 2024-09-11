@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.section__notfound-heading-title{
+    font-family: 'DM Sans';
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.section__notfound-heading, .notfound__details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.notfound__description-title{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 26px;
+    color: #514F4F;
+
+}
