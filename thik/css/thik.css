@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*,*::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.info__heading{
+    padding-bottom: 40px;
+}
+
+.info__heading-title{
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.info__heading-content{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info__mean-content-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info__mean-content-image{
+    margin-right: 30px;
+}
+
+.info__end{
+    
+}
+
+.info__end-item-content{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    float: left;
+}

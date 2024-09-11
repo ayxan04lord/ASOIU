@@ -1,0 +1,52 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-straight/css/uicons-thin-straight.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*,*::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section__history-heading-title {
+    font-family: 'Playfair Display';
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.section__history-heading-date {
+
+    padding: 10px 16px;
+    background-color: black;
+    color: #F8F8F8;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.history__content {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.history__content-past {
+    width: 100%;
+    height: auto;
+}
+
+.history__seemore-title {
+    font-size: 28px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+}
+
+.history__seemore-content {
+    text-decoration: none;
+}
+
+.history__seemore-title {
+    text-decoration: underline;
+}
