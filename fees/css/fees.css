@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 48px 80px;
+}
+
+.fees__heading {
+    margin-bottom: 42px;
+}
+
+.fees__heading-title {
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+
+.fees__heading-description {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fees__heading-document-list {
+    width: 100%;
+    height: 0 auto;
+}
+
+.fees__heading-document-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+
+}
+
+.fees__main {
+    width: 100%;
+    height: 0 auto;
+    font-family: 'DM Sans';
+}
+
+.fees__main-deadline-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+
+}
+
+.fees__deadline-description-list {
+    margin-bottom: 42px;
+}
+
+.fees__deadline-description-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.fees__deadline-description-item>span {
+    font-weight: bold;
+}
+
+.fees__main-fee-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+
+}
+
+.fees__main-fee-description-list {
+    margin-bottom: 42px;
+}
+
+.fees__main-fee-description-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+}
+
+.fees__main-payment-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+    margin-bottom: 16px;
+}
+
+.fees__main-payment-list {
+    margin-bottom: 42px;
+}
+
+.fees__main-payment-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+}
+
+.fees__main-including-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.fees__main-including-list {
+    margin-bottom: 42px;
+}
+
+.fees__main-including-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+}
+
+.fees__main-excluding-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.fees__main-excluding-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}

@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 48px 80px;
+}
+
+/* Example placeholder for CSS */
+
+/* General Styles */
+
+/* Apply Heading */
+
+/* Apply Main */
+.apply__heading {
+    margin-bottom: 42px;
+}
+
+.apply__heading-title {
+    width: 100%;
+    height: auto;
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 16px;
+    color: #000000;
+
+}
+
+.apply__heading-description {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 16px;
+    color: #353535;
+}
+
+.apply__heading-description-content {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+}
+
+.apply__main {
+    font-family: 'DM Sans';
+}
+
+.apply__requirements-title {
+
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+    margin-bottom: 16px;
+}
+
+.apply__requirements-language-list {
+    margin-bottom: 42px;
+}
+
+.apply__requirements-language-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1C1C1C;
+    margin-bottom: 42px;
+}
+
+.apply__language-requirements-title {
+
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+    margin-bottom: 16px;
+
+}
+
+.apply__language-requirement-list {
+    margin-bottom: 42px;
+}
+
+.apply__language-requirements-item {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+
+}
+
+.apply__language-requirements-table {
+    width: 100%;
+    height: 0 auto;
+    padding: 24px;
+    /* gap: 88px; */
+    border-radius: 4px;
+    border: 1px solid #B2B2B2;
+    background: #D1E9FF33;
+    margin-bottom: 12px;
+    color: #353535;
+}
+
+.apply__language-requirements-table-header {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.apply__language-requirements-table-cell {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 88px;
+}
+
+.apply__language-requirements-note {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 42px;
+    color: #353535;
+}
+
+.apply__deadline-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #353535;
+}
+
+.apply__deadline-description-list {
+    margin-bottom: 42px;
+}
+
+.apply__deadline-description-item>span {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.apply__deadline-description-item {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353535;
+
+}
+
+.apply__document-list-title {
+
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.apply__document-list {
+    margin-bottom: 12px;
+}
+
+.apply__document-item {
+
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.apply__document-item:not(:last-of-type) {
+    margin-bottom: 12px;
+}
+
+.apply__document-list-note {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.apply__start-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1570EF;
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 48px 80px;
+}
+
+.cultural_programme__heading-title {
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 24px;
+
+}
+
+.cultural_programme__heading-description {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.cultural_programme__event-title {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.cultural_programme__event-list {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+    line-height: 24px;
+}
+
+.cultural_programme__event-item:not(:last-of-type) {
+    margin-bottom: 14px;
+}
