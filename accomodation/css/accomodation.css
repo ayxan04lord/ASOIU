@@ -1,0 +1,128 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+.section {
+    padding: 48px 80px;
+}
+
+.accomodation__heading {
+    font-family: 'DM Sans';
+    margin-bottom: 42px;
+}
+
+.accomodation__heading-warning-info {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #EF0521;
+    margin-bottom: 16px;
+}
+
+.accomodation__heading-location-list {
+    list-style-type: none;
+}
+
+.accomodation__heading-location-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.accomodation__heading-location-item>i {
+    margin-right: 12px;
+}
+
+.accomodation__heading-location-item>div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.accomodation__content {
+    margin-bottom: 60px;
+
+}
+
+.campus__content {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.campus__rooms {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 60px;
+    
+}
+
+.campus__dormitory-room-content {
+    width: 288px;
+    height: 262px;
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.campus__room-image {
+    object-fit: contain;
+
+}
+
+.campus__room-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    min-height: 64px;
+    text-align: center;
+    font-weight: 500;
+    
+
+}
+
+.campus__single-room-content {
+    width: 288px;
+    height: 262px;
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    overflow: hidden;
+}
+
+.campus__about {
+    
+color: #353535;
+
+}
+
+.facility__list {
+    color: #353535;
+}
+
+.facility__item:not(:last-of-type) {
+    margin-bottom: 12px;
+}
+
+.campus__gallery {
+    margin-bottom: 60px;
+}
+
+.campus__gallery-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 32px;
+}
+
+.gallery__image {
+   
+    border-radius: 8px;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
